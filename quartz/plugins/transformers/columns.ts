@@ -1,8 +1,4 @@
 import { QuartzTransformerPlugin } from "../types"
-import remarkParse from "remark-parse"
-import remarkStringify from "remark-stringify"
-import { unified } from "unified"
-import { visit } from "unist-util-visit"
 
 export const Columns: QuartzTransformerPlugin = () => {
   return {
@@ -19,12 +15,7 @@ export const Columns: QuartzTransformerPlugin = () => {
 
         while ((colMatch = colMdRegex.exec(content)) !== null) {
           const [_, className, columnContent] = colMatch
-          const processedContent = unified()
-            .use(remarkParse)
-            .use(remarkStringify)
-            .processSync(columnContent.trim())
-            .toString()
-          columns.push({ className, content: processedContent })
+          columns.push({ className, content: columnContent.trim() })
         }
 
         const columnDivs = columns

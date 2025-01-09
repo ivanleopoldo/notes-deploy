@@ -23,7 +23,6 @@ debugInConsole: false # Print debug info in Obsidian console
 ````col
 
 ```col-md
-### On-hand
 
 #### Furniture
 
@@ -90,7 +89,6 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ```
 ```col-md
-### To Order
 
 #### Accessories
 
