@@ -1,11 +1,10 @@
 ---
 sticker: lucide//layers
 ---
+
 A plan to change the way my room looks and feels with functionality as priority
 
-
 ---
-
 
 ```table-of-contents
 title: ## Table of Contents
@@ -22,21 +21,26 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Materials
 
 ````col
+
 ```col-md
 ### On-hand
 
 #### Furniture
+
 - L-Shaped Table
 - Computer Chair
 - Brown Cabinet
 - Bed
+
 #### Accessories
+
 - Desk Organizer
 - Table Mats
 - Paintings
 - Monitor Arm
 - TV Wall Mount
 - Microphone Arm
+
 #### Electronics
 
 **Monitors**
@@ -86,20 +90,26 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ```
 ```col-md
-
 ### To Order
+
 #### Accessories
+
 - Dual Slot Vertical Laptop Stand
 - Monitor Arm
+
 #### Electronics
+
 - HDMI Splitter
 - HDMI Switcher
 
 ### To Buy
 
 #### Accessories
+
 - Cable Management Materials
+
 ##### Electronics
+
 - Power Strip
 - Type C to Type A Cable
 
@@ -109,3 +119,4 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Room Plan
 
 ## Desk Plan
+
