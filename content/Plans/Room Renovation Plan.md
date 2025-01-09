@@ -20,6 +20,9 @@ debugInConsole: false # Print debug info in Obsidian console
 ---
 
 ## Materials
+
+````col
+```col-md
 ### On-hand
 
 #### Furniture
@@ -35,10 +38,12 @@ debugInConsole: false # Print debug info in Obsidian console
 - TV Wall Mount
 - Microphone Arm
 #### Electronics
+
 **Monitors**
 - TV
 - 24" Monitor
 - 27" Monitor
+
 **Display Wires**
 - 2 HDMI Cable
 - TV Power Cable
@@ -47,6 +52,7 @@ debugInConsole: false # Print debug info in Obsidian console
 **Keyboards**
 - Mad60HE Black
 - Keychron K3 Pro
+
 **Devices**
 - Lenovo Legion 5
 - Macbook Air M1
@@ -56,6 +62,7 @@ debugInConsole: false # Print debug info in Obsidian console
 **Power Strips**
 - 3 Outlet Power Strip Straight
 - 4 Outlet Power Strip Rounded
+
 **Power/Data Cables**
 - 1 Type C to Lightning Cable (iPhone Charger)
 - Type C to Type C Cable (MacBook Charger)
@@ -67,15 +74,19 @@ debugInConsole: false # Print debug info in Obsidian console
 
 **Audio Card**
 - Focusrite Solo
+
 **Audio Output**
 - Logitech Speakers
 - audio-technica headphones
+
 **Audio Cables**
 - XLR Cable
 - PL Cable
 - Headphone Cable
 
---- column-break ---
+```
+```col-md
+
 ### To Order
 #### Accessories
 - Dual Slot Vertical Laptop Stand
@@ -92,7 +103,9 @@ debugInConsole: false # Print debug info in Obsidian console
 - Power Strip
 - Type C to Type A Cable
 
---- end-multi-column
+```
+````
+
 ## Room Plan
 
 ## Desk Plan
