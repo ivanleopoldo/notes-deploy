@@ -20,13 +20,6 @@ debugInConsole: false # Print debug info in Obsidian console
 ---
 
 ## Materials
---- start-multi-column: ID_nszk
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-border: disabled
-shadow: disabled
-```
 ### On-hand
 
 #### Furniture
