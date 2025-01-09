@@ -1,0 +1,48 @@
+:root {
+    --obsidian-columns-gap: 20px;
+    --obsidian-columns-padding: 0 20px;
+    --obsidian-columns-min-width: 100px;
+    --obsidian-columns-def-span: 1;
+}
+
+.multi-column {
+    display: flex !important;
+    padding: var(--obsidian-columns-padding);
+    flex-wrap: wrap;
+    gap: var(--obsidian-columns-gap);
+    white-space: normal;
+}
+
+.col-md {
+    flex-grow: var(--obsidian-columns-def-span);
+    flex-basis: calc(var(--obsidian-columns-min-width) * var(--obsidian-columns-def-span));
+    width: calc(var(--obsidian-columns-min-width) * var(--obsidian-columns-def-span));
+}
+
+// Support for custom column spans
+.col-md-0-5 { --obsidian-columns-custom-span: 0.5; }
+.col-md-1, .col-md { --obsidian-columns-custom-span: 1; }
+.col-md-1-5 { --obsidian-columns-custom-span: 1.5; }
+.col-md-2 { --obsidian-columns-custom-span: 2; }
+.col-md-2-5 { --obsidian-columns-custom-span: 2.5; }
+.col-md-3 { --obsidian-columns-custom-span: 3; }
+.col-md-3-5 { --obsidian-columns-custom-span: 3.5; }
+.col-md-4 { --obsidian-columns-custom-span: 4; }
+.col-md-4-5 { --obsidian-columns-custom-span: 4.5; }
+.col-md-5 { --obsidian-columns-custom-span: 5; }
+.col-md-5-5 { --obsidian-columns-custom-span: 5.5; }
+.col-md-6 { --obsidian-columns-custom-span: 6; }
+.col-md-6-5 { --obsidian-columns-custom-span: 6.5; }
+.col-md-7 { --obsidian-columns-custom-span: 7; }
+.col-md-7-5 { --obsidian-columns-custom-span: 7.5; }
+.col-md-8 { --obsidian-columns-custom-span: 8; }
+.col-md-8-5 { --obsidian-columns-custom-span: 8.5; }
+.col-md-9 { --obsidian-columns-custom-span: 9; }
+.col-md-9-5 { --obsidian-columns-custom-span: 9.5; }
+.col-md-10 { --obsidian-columns-custom-span: 10; }
+
+[class*="col-md-"] {
+    flex-grow: var(--obsidian-columns-custom-span);
+    flex-basis: calc(var(--obsidian-columns-min-width) * var(--obsidian-columns-custom-span));
+    width: calc(var(--obsidian-columns-min-width) * var(--obsidian-columns-custom-span));
+}
