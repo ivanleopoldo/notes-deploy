@@ -24,6 +24,8 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ```col-md
 
+### On-hand
+
 #### Furniture
 
 - L-Shaped Table
@@ -89,6 +91,8 @@ debugInConsole: false # Print debug info in Obsidian console
 
 ```
 ```col-md
+
+### To Buy
 
 #### Accessories
 

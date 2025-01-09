@@ -1,6 +1,6 @@
 :root {
     --obsidian-columns-gap: 20px;
-    --obsidian-columns-padding: 0 20px;
+    --obsidian-columns-padding: 0;
     --obsidian-columns-min-width: 100px;
     --obsidian-columns-def-span: 1;
 }
@@ -11,15 +11,23 @@
     flex-wrap: wrap;
     gap: var(--obsidian-columns-gap);
     white-space: normal;
+    
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
 }
 
 .col-md {
     flex-grow: var(--obsidian-columns-def-span);
     flex-basis: calc(var(--obsidian-columns-min-width) * var(--obsidian-columns-def-span));
     width: calc(var(--obsidian-columns-min-width) * var(--obsidian-columns-def-span));
+    
+    @media (max-width: 768px) {
+        width: 100%;
+        flex-basis: auto;
+    }
 }
 
-// Support for custom column spans
 .col-md-0-5 { --obsidian-columns-custom-span: 0.5; }
 .col-md-1, .col-md { --obsidian-columns-custom-span: 1; }
 .col-md-1-5 { --obsidian-columns-custom-span: 1.5; }
